@@ -3,5 +3,7 @@
     <pages>
         <page name='EError'/>
         <page name='DispatchQuee'/>
+        <page name='Enum'/>
+        <page name='Combine'/>
     </pages>
 </playground>

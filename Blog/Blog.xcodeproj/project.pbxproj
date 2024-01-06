@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600C3BAE2B4983B700EA0C4D /* CombineJSon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C3BAD2B4983B700EA0C4D /* CombineJSon.swift */; };
 		6075ED842B463B1D006E062F /* BlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6075ED832B463B1D006E062F /* BlogApp.swift */; };
 		6075ED862B463B1D006E062F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6075ED852B463B1D006E062F /* ContentView.swift */; };
 		6075ED882B463B1F006E062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6075ED872B463B1F006E062F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600C3BAD2B4983B700EA0C4D /* CombineJSon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineJSon.swift; sourceTree = "<group>"; };
 		6075ED802B463B1D006E062F /* Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6075ED832B463B1D006E062F /* BlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogApp.swift; sourceTree = "<group>"; };
 		6075ED852B463B1D006E062F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600C3BAC2B49837E00EA0C4D /* UseCombineToJson */ = {
+			isa = PBXGroup;
+			children = (
+				600C3BAD2B4983B700EA0C4D /* CombineJSon.swift */,
+			);
+			path = UseCombineToJson;
+			sourceTree = "<group>";
+		};
 		6075ED772B463B1D006E062F = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		6075ED822B463B1D006E062F /* Blog */ = {
 			isa = PBXGroup;
 			children = (
+				600C3BAC2B49837E00EA0C4D /* UseCombineToJson */,
 				6075ED912B463B28006E062F /* UseEscapingToJson */,
 				6075ED832B463B1D006E062F /* BlogApp.swift */,
 				6075ED852B463B1D006E062F /* ContentView.swift */,
@@ -154,6 +165,7 @@
 				6075ED932B463BCC006E062F /* DownloadWithEscaping.swift in Sources */,
 				6075ED952B463F22006E062F /* PostModel.swift in Sources */,
 				6075ED862B463B1D006E062F /* ContentView.swift in Sources */,
+				600C3BAE2B4983B700EA0C4D /* CombineJSon.swift in Sources */,
 				6075ED842B463B1D006E062F /* BlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
