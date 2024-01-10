@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		600C3BAE2B4983B700EA0C4D /* CombineJSon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C3BAD2B4983B700EA0C4D /* CombineJSon.swift */; };
 		6036C19B2B4B969F0005E476 /* PassWordMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036C19A2B4B969F0005E476 /* PassWordMatch.swift */; };
+		6036C1A22B4C03B90005E476 /* EnviromentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036C1A12B4C03B90005E476 /* EnviromentValue.swift */; };
 		6075ED842B463B1D006E062F /* BlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6075ED832B463B1D006E062F /* BlogApp.swift */; };
 		6075ED862B463B1D006E062F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6075ED852B463B1D006E062F /* ContentView.swift */; };
 		6075ED882B463B1F006E062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6075ED872B463B1F006E062F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		600C3BAD2B4983B700EA0C4D /* CombineJSon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineJSon.swift; sourceTree = "<group>"; };
 		6036C19A2B4B969F0005E476 /* PassWordMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordMatch.swift; sourceTree = "<group>"; };
+		6036C1A12B4C03B90005E476 /* EnviromentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentValue.swift; sourceTree = "<group>"; };
 		6075ED802B463B1D006E062F /* Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6075ED832B463B1D006E062F /* BlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogApp.swift; sourceTree = "<group>"; };
 		6075ED852B463B1D006E062F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 			path = CombinePasswordMatch;
 			sourceTree = "<group>";
 		};
+		6036C1A02B4C028D0005E476 /* Enviroment */ = {
+			isa = PBXGroup;
+			children = (
+				6036C1A12B4C03B90005E476 /* EnviromentValue.swift */,
+			);
+			path = Enviroment;
+			sourceTree = "<group>";
+		};
 		6075ED772B463B1D006E062F = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		6075ED822B463B1D006E062F /* Blog */ = {
 			isa = PBXGroup;
 			children = (
+				6036C1A02B4C028D0005E476 /* Enviroment */,
 				6036C1992B4B96260005E476 /* CombinePasswordMatch */,
 				600C3BAC2B49837E00EA0C4D /* UseCombineToJson */,
 				6075ED912B463B28006E062F /* UseEscapingToJson */,
@@ -179,6 +190,7 @@
 				6075ED862B463B1D006E062F /* ContentView.swift in Sources */,
 				600C3BAE2B4983B700EA0C4D /* CombineJSon.swift in Sources */,
 				6075ED842B463B1D006E062F /* BlogApp.swift in Sources */,
+				6036C1A22B4C03B90005E476 /* EnviromentValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

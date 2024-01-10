@@ -6,5 +6,7 @@
         <page name='Enum'/>
         <page name='Combine'/>
         <page name='NotificationCenter'/>
+        <page name='asis'/>
+        <page name='CaseIterable'/>
     </pages>
 </playground>
