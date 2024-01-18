@@ -8,5 +8,6 @@
         <page name='NotificationCenter'/>
         <page name='asis'/>
         <page name='CaseIterable'/>
+        <page name='Future'/>
     </pages>
 </playground>
